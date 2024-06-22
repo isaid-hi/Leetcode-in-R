@@ -43,12 +43,12 @@ two_sum <- function(nums, target) {
 }
 
 two_sum(nums, target)
-
-nums <- sample(-10^9:10^9, sample(2:10^4, 1), replace = FALSE)
-target <- sample(-10^9:10^9, 1)
-which((target - nums) %in% nums)
-nums
-target
+# 
+# nums <- sample(-10^9:10^9, sample(2:10^4, 1), replace = FALSE)
+# target <- sample(-10^9:10^9, 1)
+# which((target - nums) %in% nums)
+# nums
+# target
 
 nums <- sample(1:10, sample(3:20, 1), replace = TRUE)
 target <- sample(1:10, 1)
